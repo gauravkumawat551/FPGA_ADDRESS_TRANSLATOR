@@ -105,9 +105,13 @@ Verification testbench:
 
 ## 🚀 Running Simulation
 
+### **EDA Playground**
+  https://edaplayground.com/x/tDYi
+
 Example using **Icarus Verilog**:
 
 ```sh
 iverilog -o sim.out *.v
 vvp sim.out
 gtkwave i2c_top_tb.vcd
+
